@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.spec
+build/
+dist/
+output/
+*_segments/
+*.mp3
+*.wav
+.env
+.venv/
+venv/
