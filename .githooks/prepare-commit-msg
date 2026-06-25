@@ -1,0 +1,4 @@
+#!/bin/sh
+# Strip Cursor co-author / Made-with trailers before commit is recorded.
+ROOT="$(git rev-parse --show-toplevel)"
+node "$ROOT/scripts/strip-cursor-commit-trailer.js" "$1"
