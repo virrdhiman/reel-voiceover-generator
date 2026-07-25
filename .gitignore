@@ -10,3 +10,13 @@ output/
 .env
 .venv/
 venv/
+
+# added by UPLOAD-ALL-REPOS
+.env.*
+!.env.example
+node_modules/
+.cursor/
+.DS_Store
+Thumbs.db
+*.pyc
+.next/
