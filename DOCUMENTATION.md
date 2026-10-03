@@ -1,4 +1,4 @@
-# Reel Voiceover Generator — Technical Documentation
+# Reel Voiceover Generator: Technical Documentation
 
 This document explains how the project works, which functions are used, why they exist, and the syntax behind each major part of the code.
 
@@ -33,7 +33,7 @@ Final MP3 + WAV + script text file
 1. **Edge TTS** provides free, high-quality neural voices without API keys.
 2. **FFmpeg** handles precise audio timing, speed correction, and mixing.
 3. **Interactive prompts** make the EXE usable without editing source code.
-4. **Output in current working directory** makes the EXE portable — users can copy it anywhere.
+4. **Output in current working directory** makes the EXE portable: users can copy it anywhere.
 
 ---
 
