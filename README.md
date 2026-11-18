@@ -19,7 +19,7 @@ Internet access is required because speech synthesis uses the Edge TTS online se
 ## Quick Start (Python)
 
 ```powershell
-cd productive-it-reel
+cd reel-voiceover-generator
 python -m pip install -r requirements.txt
 python voiceover_generator.py
 ```
@@ -27,7 +27,7 @@ python voiceover_generator.py
 ## Build the EXE Yourself
 
 ```powershell
-cd productive-it-reel
+cd reel-voiceover-generator
 powershell -ExecutionPolicy Bypass -File .\build.ps1
 ```
 
@@ -43,7 +43,7 @@ When you run the program, it asks for:
 | Total reel duration | Final timeline length in seconds | `20` |
 | Voice selection | Neural TTS voice | `en-US-GuyNeural` |
 | Speech rate | Speed adjustment | `+5%` |
-| Script mode | Preset or custom segments | Productive IT preset |
+| Script mode | Preset or custom segments | Default preset |
 
 ### Custom Segment Mode
 
